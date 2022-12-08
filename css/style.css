@@ -1,4 +1,5 @@
 :root {
+  /* Default (light) theme */
   --bg: #fff;
   --accent-bg: #9370d880;
   --text: #212121;
@@ -9,6 +10,27 @@
   --preformatted: #444;
   --marked: #ffdd33;
   --disabled: #efefef;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #212121;
+    --accent-bg: #493969;
+    --text: #dcdcdc;
+    --text-light: #ababab;
+    --accent: #9370d8;
+    --code: #f06292;
+    --preformatted: #ccc;
+    --disabled: #111;
+  }
+
+  /* Add a bit of transparency so light media isn't so glaring in dark mode */
+  img,
+  video {
+    opacity: 0.8;
+  }
 }
 
 body {
