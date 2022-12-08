@@ -10,6 +10,7 @@
   --preformatted: #444;
   --marked: #ffdd33;
   --disabled: #efefef;
+  --font: 'Reggae One', fantasy;
 }
 
 /* Dark theme */
@@ -33,16 +34,17 @@
   }
 }
 
-body {
-  font-family: Luminari, fantasy;
+body>main {
+  font-family: var(--font);
 }
 
 body>header {
+  font-family: var(--font);
   padding: 2rem 0.5rem 2rem 0.5rem
 }
 
 button {
-  font-family: Luminari, fantasy;
+  font-family: var(--font);
 }
 
 .center {
