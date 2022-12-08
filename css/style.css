@@ -1,3 +1,24 @@
+:root {
+  --bg: #fff;
+  --accent-bg: #9370d880;
+  --text: #212121;
+  --text-light: #585858;
+  --border: #898EA4;
+  --accent: #9370d8;
+  --code: #d81b60;
+  --preformatted: #444;
+  --marked: #ffdd33;
+  --disabled: #efefef;
+}
+
+body {
+  font-family: Luminari, fantasy;
+}
+
+button {
+  font-family: Luminari, fantasy;
+}
+
 .center {
   text-align: center;
 }
