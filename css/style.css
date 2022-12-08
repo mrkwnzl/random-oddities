@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "openDyslexic";
+  src: url("../font/OpenDyslexic-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "openDyslexic";
+  src: url("./font/Open-Dyslexic-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
 :root {
   /* Default (light) theme */
   --bg: #fff;
@@ -10,7 +22,7 @@
   --preformatted: #444;
   --marked: #ffdd33;
   --disabled: #efefef;
-  --font: 'Reggae One', fantasy;
+  --font: "openDyslexic", sans-serif;
 }
 
 /* Dark theme */
@@ -34,13 +46,17 @@
   }
 }
 
+body>header {
+  font-family: var(--font);
+  /* padding: 2rem 0.5rem 2rem 0.5rem */
+}
+
 body>main {
   font-family: var(--font);
 }
 
-body>header {
+body>footer {
   font-family: var(--font);
-  padding: 2rem 0.5rem 2rem 0.5rem
 }
 
 button {
