@@ -1,12 +1,12 @@
 @font-face {
   font-family: "openDyslexic";
-  src: url("../font/OpenDyslexic-Regular.otf") format("opentype");
+  src: url("../font/OpenDyslexic-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "openDyslexic";
-  src: url("./font/Open-Dyslexic-Bold.otf") format("opentype");
+  src: url("./font/OpenDyslexic-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 
